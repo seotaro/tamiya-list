@@ -1,0 +1,11 @@
+{
+  "name": "tamiya-list",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:seotaro/tamiya-list.git",
+  "author": "seotaro <mail2017@seotaro.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^24.0.0"
+  }
+}
