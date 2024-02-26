@@ -26,6 +26,6 @@ node listup-lacquer-paint.js
 
 2024-02-26 時点で生成したリスト
 
-- [list-acrylic-paint-mini.json](https://github.com/seotaro/tamiya-list/files/14399448/list-acrylic-paint-mini.json)
-- [list-enamel-paint.json](https://github.com/seotaro/tamiya-list/files/14399449/list-enamel-paint.json)
-- [list-lacquer-paint.json](https://github.com/seotaro/tamiya-list/files/14399870/list-lacquer-paint.json)
+- [アクリル塗料ミニ](https://github.com/seotaro/tamiya-list/files/14399448/list-acrylic-paint-mini.json)
+- [エナメル塗料](https://github.com/seotaro/tamiya-list/files/14399449/list-enamel-paint.json)
+- [ラッカー塗料](https://github.com/seotaro/tamiya-list/files/14399870/list-lacquer-paint.json)
