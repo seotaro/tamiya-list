@@ -3,6 +3,8 @@
 const { JSDOM } = require('jsdom');
 const fs = require('fs');
 
+const utils = require('./utils');
+
 const parse = (url) => {
   return fetch(url)
     .then(response => {
@@ -70,8 +72,14 @@ const parse = (url) => {
     }
   }
 
-  const json = JSON.stringify(list);
-  fs.writeFileSync('list-lacquer-paint.json', json, 'utf8');
+  const FILENAME = 'list-lacquer-paint';
 
-  console.log('write list-lacquer-paint.json');
+  // JSON
+  const json = JSON.stringify(list);
+  fs.writeFileSync(`${FILENAME}.json`, json, 'utf8');
+  console.log(`write ${FILENAME}.json`);
+
+  // CSV
+  utils.outputCsv(FILENAME, list);
+  console.log(`write ${FILENAME}.csv`);
 })();
