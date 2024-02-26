@@ -31,7 +31,7 @@ const parse = (url) => {
         const spans = element.querySelectorAll('span');
         const str = spans[1].textContent
           .replace(/\n/g, '')
-          .replace(/ACRYLIC PAINT MINI /gi, '')
+          .replace(/ACRYLIC\s+(PAINT\s+)?MINI /gi, '')
           .split(' ');
         return [str[0], str.slice(1).join(' ')]
       })(item_title_block_);
