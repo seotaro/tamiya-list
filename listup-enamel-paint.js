@@ -22,7 +22,7 @@ const parse = (url) => {
         const h1 = element.querySelector('h1');
         const str = h1.textContent
           .replace(/\n/g, '')
-          .replace(/アクリルミニ /ug, '')
+          .replace(/エナメル /ug, '')
           .split(' ');
         return [str[0], str.slice(1).join(' ')]
       })(item_title_block_);
@@ -31,7 +31,6 @@ const parse = (url) => {
         const spans = element.querySelectorAll('span');
         const str = spans[1].textContent
           .replace(/\n/g, '')
-          .replace(/ACRYLIC PAINT MINI /gi, '')
           .split(' ');
         return [str[0], str.slice(1).join(' ')]
       })(item_title_block_);
@@ -44,10 +43,8 @@ const parse = (url) => {
   const END_POINT = 'https://www.tamiya.com/japan/products/';
 
   const items = [
-    81030,  // アクリルミニ X20A　(大徳用)
-    81040,  // アクリル溶剤特大(X-20A 250ml)
-    ...Array.from({ length: 99 }, (_, i) => 81501 + i),// つやあり系
-    ...Array.from({ length: 99 }, (_, i) => 81701 + i),// つや消し系
+    ...Array.from({ length: 99 }, (_, i) => 80001 + i),// つやあり系
+    ...Array.from({ length: 99 }, (_, i) => 80301 + i),// つや消し系
   ];
 
   const list = [];
@@ -57,21 +54,15 @@ const parse = (url) => {
     const item = items[i];
 
     // 例外処理
-    if (item === 81030) {
-      const res = { code: 'X-20A', name: { ja: 'アクリル溶剤大徳用(40ml)', en: 'Acrylic thinner (40ml)' } };
-      list.push({ item, ...res });
-      console.log(`${item}, ${res.code}, ${res.name.ja}, ${res.name.en}`);
-      continue;
-    }
-    if (item === 81040) {
-      const res = { code: 'X-20A', name: { ja: 'アクリル溶剤特大(250ml)', en: 'Acrylic thinner (250ml)' } };
+    if (item === 80040) {
+      const res = { code: 'X-20', name: { ja: 'エナメル溶剤特大(250ml)', en: 'Enamel thinner (250ml)' } };
       list.push({ item, ...res });
       console.log(`${item}, ${res.code}, ${res.name.ja}, ${res.name.en}`);
       continue;
     }
 
     try {
-      const res = await parse(`${END_POINT}/${item}/index.html`);
+      const res = await parse(`${END_POINT}/${item}/index.html`, item);
       list.push({ item, ...res });
       console.log(`${item}, ${res.code}, ${res.name.ja}, ${res.name.en}`);
 
@@ -81,7 +72,7 @@ const parse = (url) => {
   }
 
   const json = JSON.stringify(list);
-  fs.writeFileSync('list-acrylic-paint-mini.json', json, 'utf8');
+  fs.writeFileSync('list-enamel-paint.json', json, 'utf8');
 
-  console.log('write list-acrylic-paint-mini.json');
+  console.log('write list-enamel-paint.json');
 })();

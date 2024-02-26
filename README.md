@@ -7,3 +7,9 @@
 ```bash
 node listup-acrylic-paint-mini.js
 ```
+
+「エナメル塗料」
+
+```bash
+node listup-enamel-paint.js
+```
