@@ -2,6 +2,8 @@
 
 タミヤ模型の塗料一覧をJSON形式で保存する。
 
+## Run
+
 「アクリル塗料ミニ」
 
 ```bash
@@ -13,3 +15,10 @@ node listup-acrylic-paint-mini.js
 ```bash
 node listup-enamel-paint.js
 ```
+
+## JSON
+
+2024-02-26 時点で生成したリスト
+
+- [list-acrylic-paint-mini.json](https://github.com/seotaro/tamiya-list/files/14399448/list-acrylic-paint-mini.json)
+- [list-enamel-paint.json](https://github.com/seotaro/tamiya-list/files/14399449/list-enamel-paint.json)
