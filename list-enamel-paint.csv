@@ -1,0 +1,85 @@
+item,code,name-ja,name-en
+80001,X-1,ブラック,Black
+80002,X-2,ホワイト,White
+80003,X-3,ロイヤルブルー,Royal blue
+80004,X-4,ブルー,Blue
+80005,X-5,グリーン,Green
+80006,X-6,オレンジ,Orange
+80007,X-7,レッド,Red
+80008,X-8,レモンイエロー,Lemon yellow
+80009,X-9,ブラウン,Brown
+80010,X-10,ガンメタル,Gun metal
+80011,X-11,クロムシルバー,Chrome silver
+80012,X-12,ゴールドリーフ,Gold leaf
+80013,X-13,メタリックブルー,Metallic blue
+80014,X-14,スカイブルー,Sky blue
+80015,X-15,ライトグリーン,Light green
+80016,X-16,パープル,Purple
+80017,X-17,ピンク,Pink
+80018,X-18,セミグロスブラック,Semi gloss black
+80019,X-19,スモーク,Smoke
+80020,X-20,溶剤,Enamel thinner 10ml
+80021,X-21,フラットベース,Flat base
+80022,X-22,クリヤー,Clear
+80023,X-23,クリヤーブルー,Clear blue
+80024,X-24,クリヤーイエロー,Clear yellow
+80025,X-25,クリヤーグリーン,Clear green
+80026,X-26,クリヤーオレンジ,Clear orange
+80027,X-27,クリヤーレッド,Clear red
+80028,X-28,パークグリーン,Park Green
+80030,X-20,溶剤大びん,Enamel thinner (40ml)
+80031,X-31,チタンゴールド,TITANIUM GOLD
+80032,X-32,チタンシルバー,TITANIUM SILVER
+80033,X-33,ブロンズ,BRONZE
+80034,X-34,メタリックブラウン,METALLIC BROWN
+80040,X-20,エナメル溶剤特大(250ml),Enamel thinner (250ml)
+80301,XF-1,フラットブラック,Flat black
+80302,XF-2,フラットホワイト,Flat white
+80303,XF-3,フラットイエロー,Flat yellow
+80304,XF-4,イエローグリーン,Yellow green
+80305,XF-5,フラットグリーン,Flat green
+80306,XF-6,コッパー,Copper
+80307,XF-7,フラットレッド,Flat red
+80308,XF-8,フラットブルー,Flat blue
+80309,XF-9,ハルレッド,Hull red
+80310,XF-10,フラットブラウン,Flat brown
+80311,XF-11,暗緑色,J.N. green
+80312,XF-12,明灰白色,J.N. grey
+80313,XF-13,濃緑色,J.A. green
+80314,XF-14,明灰緑色,J.A. grey
+80315,XF-15,フラットフレッシュ,Flat flesh
+80316,XF-16,フラットアルミ,Flat aluminum
+80317,XF-17,シーブルー,Sea blue
+80318,XF-18,ミディアムブルー,Medium blue
+80319,XF-19,スカイグレイ,Sky grey
+80320,XF-20,ミディアムグレイ,Medium grey
+80321,XF-21,スカイ,Sky
+80322,XF-22,RLMグレイ,RLM grey
+80323,XF-23,ライトブルー,Light blue
+80324,XF-24,ダークグレイ,Dark grey
+80325,XF-25,ライトシーグレイ,Light sea grey
+80326,XF-26,ディープグリーン,Deep green
+80327,XF-27,ブラックグリーン,Black green
+80328,XF-28,ダークコッパー,DARK COPPER
+80349,XF-49,カーキ,Khaki
+80350,XF-50,フィールドブルー,Field blue
+80351,XF-51,カーキドラブ,Khaki drab
+80352,XF-52,フラットアース,Flat earth
+80353,XF-53,ニュートラルグレイ,Neutral grey
+80354,XF-54,ダークシーグレイ,Dark sea grey
+80355,XF-55,デッキタン,Deck tan
+80356,XF-56,メタリックグレイ,Metallic grey
+80357,XF-57,バフ,Buff
+80358,XF-58,オリーブグリーン,Olive green
+80359,XF-59,デザートイエロー,Desert yellow
+80360,XF-60,ダークイエロー,Dark yellow
+80361,XF-61,ダークグリーン,Dark green
+80362,XF-62,オリーブドラブ,Olive drab
+80363,XF-63,ジャーマングレイ,German grey
+80364,XF-64,レッドブラウン,Red brown
+80365,XF-65,フィールドグレイ,Field grey
+80366,XF-66,ライトグレイ,Light grey
+80370,XF-70,暗緑色2,DARK GREEN 2 (IJN)
+80371,XF-71,コックピット色(日本海軍),COCKPIT GREEN (IJN)
+80384,XF-84,ダークアイアン （履帯色）,DARK IRON
+80385,XF-85,ラバーブラック,RUBBER BLACK

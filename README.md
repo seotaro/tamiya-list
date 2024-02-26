@@ -1,6 +1,6 @@
 # tamiya-list
 
-タミヤ模型の塗料一覧をJSON形式で保存する。
+タミヤ模型の塗料一覧をウェブサイトをスクレイピングしてJSON形式とCSV形式で出力する。
 
 ## Run
 
@@ -26,6 +26,14 @@ node listup-lacquer-paint.js
 
 2024-02-26 時点で生成したリスト
 
-- [アクリル塗料ミニ](https://github.com/seotaro/tamiya-list/files/14401506/list-acrylic-paint-mini.json)
-- [エナメル塗料](https://github.com/seotaro/tamiya-list/files/14399449/list-enamel-paint.json)
-- [ラッカー塗料](https://github.com/seotaro/tamiya-list/files/14399870/list-lacquer-paint.json)
+- [アクリル塗料ミニ](list-acrylic-paint-mini.json)
+- [エナメル塗料](list-enamel-paint.json)
+- [ラッカー塗料](list-lacquer-paint.json)
+
+## CSV
+
+2024-02-26 時点で生成したリスト
+
+- [アクリル塗料ミニ](list-acrylic-paint-mini.csv)
+- [エナメル塗料](list-enamel-paint.csv)
+- [ラッカー塗料](list-lacquer-paint.csv)
